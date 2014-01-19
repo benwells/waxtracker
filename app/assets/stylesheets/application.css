@@ -33,6 +33,7 @@
 .navbar-collapse {
   margin-right: 100px;
 }
+
 .navbar-right {
   padding-top: 24px;
 }
@@ -40,4 +41,8 @@
 #new-user-container {
   width: 33%;
   margin: 0 auto;
+}
+
+body {
+  background: #494949;
 }
