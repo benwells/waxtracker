@@ -1,4 +1,5 @@
 Waxtracker::Application.routes.draw do
+  get "static_pages/index"
   devise_for :users
   resources :records
 
