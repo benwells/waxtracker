@@ -1,4 +1,5 @@
 Waxtracker::Application.routes.draw do
+  get "dashboard" => "dashboard#index"
   get "static_pages/index"
   devise_for :users
   resources :records
