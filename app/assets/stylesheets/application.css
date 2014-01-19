@@ -21,3 +21,15 @@
        url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
        url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+#logo {
+  max-width: 200px;
+}
+
+.navbar-brand {
+  padding: 2px 2px;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
