@@ -6,9 +6,19 @@
       <span class="icon-bar"></span>
     </button> 
 
-    <a class="navbar-brand" href="/">
-      <%= image_tag('logo.png', id: 'logo') %>
-    </a>
+    <% if user_signed_in? %>
+      <li>
+        <a class="navbar-brand" href="/dashboard">
+          <%= image_tag('logo.png', id: 'logo') %>
+        </a>        
+      </li>
+    <% else %>
+      <li>
+        <a class="navbar-brand" href="/">
+          <%= image_tag('logo.png', id: 'logo') %>
+        </a>
+      </li>
+    <% end %>
   </div>
         
   <div class="collapse navbar-collapse">
